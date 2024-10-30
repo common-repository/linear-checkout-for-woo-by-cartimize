@@ -1,0 +1,633 @@
+# Copyright (C) 2022 Cartimize
+# This file is distributed under the same license as the Linear Checkout for WooCommerce by Cartimize plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Linear Checkout for WooCommerce by Cartimize 1.1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/linear-checkout-for-woo-by-cartimize\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-15T08:46:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: linear-checkout-for-woo-by-cartimize\n"
+
+#. Plugin Name of the plugin
+msgid "Linear Checkout for WooCommerce by Cartimize"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://cartimize.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Checkout You Deserve - Backed by <strong><em>134 checkout-specific guidelines</em></strong> distilled from Baymard Institute‘s 61,000+ hours of large-scale e-commerce UX research - insights already used by leading e-commerce companies like Amazon, Nike, Walmart, Target, Google, Macy’s, Office Depot etc."
+msgstr ""
+
+#. Author of the plugin
+#: includes/Admin/SettingsPage.php:31
+msgid "Cartimize"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://revmakx.com/"
+msgstr ""
+
+#: includes/Actions/ApplyCouponAction.php:106
+msgid "Please provide a coupon code"
+msgstr ""
+
+#: includes/Actions/LogInAction.php:25
+msgid "Login error."
+msgstr ""
+
+#: includes/Actions/LogInAction.php:34
+msgid "Login successful"
+msgstr ""
+
+#: includes/Actions/RemoveCouponAction.php:34
+msgid "Sorry there was a problem removing this coupon."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:170
+msgid "The linear checkout is now active for your store."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:171
+msgid "View the checkout page"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:217
+msgid "Store logo"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:217
+msgid "Will be displayed in the checkout header"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:221
+msgid "Use image"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:225
+msgid "Upload logo"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:235
+msgid "The logo will be proportionately restricted to a maximum height of 50px."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:239
+msgid "Use text"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:261
+msgid "Logout"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:263
+msgid "Login / Register"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:316
+msgid "Enable LCW"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:319
+msgid "Enable the Linear Checkout"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:329
+msgid "Hide coupon field?"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:332
+msgid "Hide the coupon field in the checkout page"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:342
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:346
+msgid "Enable custom CSS"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:347
+msgid "Add custom CSS to over-write the checkout styles."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:360
+msgid "Help us improve the plugin?"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:363
+msgid "Share non-sensitive, non-personally identifiable data, solely for the purpose of improving the plugin."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:396
+msgid "Shipping methods ordering"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:402
+msgid "RECOMMENDED"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:402
+msgid "Order by cost: Free or cheapest to most expensive"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:405
+msgid "This will keep the free or cheapest option on top and selected by default and the most expensive option as the last option. This will reduce the perceived cost and any increase in total cost will be the result of your customer's explicit action of choosing a more expensive shipping method."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:408
+msgid "Use default order"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:411
+msgid "This will follow the order you set under WooCommerce › Settings › Shipping › Shipping Zones. Use this only if you have a strong reason not to use the 'Order by cost' option above."
+msgstr ""
+
+#: includes/Compatibility/Core.php:130
+msgid "Or"
+msgstr ""
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:198
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr ""
+
+#: includes/Compatibility/Plugins/CartFlows.php:53
+msgid "Use Linear Checkout for WooCommerce Template"
+msgstr ""
+
+#: includes/Compatibility/Plugins/WooCommerceSubscriptions.php:51
+msgid "Choose your Shipping Method for your Subscriptions"
+msgstr ""
+
+#: includes/Compatibility/Plugins/WooCommerceSubscriptions.php:311
+#: resources/php/template-core-functions.php:343
+msgid "Discount"
+msgstr ""
+
+#: includes/Compatibility/Plugins/WooCommerceSubscriptions.php:395
+#: includes/Compatibility/Plugins/WooCommerceSubscriptions.php:396
+msgid "Estimated Recurring Total"
+msgstr ""
+
+#. translators: 1: opening a <p>tag 2: opening a <code>tag  3: closing a </code>tag 4: closing a </p>tag
+#: includes/Compatibility/Plugins/WooCore.php:240
+msgid "%1$s This setting has been force-set by the %2$s Linear Checkout for WooCommerce by Cartimize%3$s plugin %4$s"
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:27
+msgid "Address Line 1 (required) "
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:60
+msgid "Billing"
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:67
+msgid "Sorry, but we had to clear your credit card details as a security measure. We take the security of your personal data seriously. Please re-enter your credit card details to proceed."
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:68
+msgid "Please fill the card details"
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:74
+msgid "Please read and accept the terms and conditions to proceed with your order."
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:80
+msgid "Please enter your email address."
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:81
+#: includes/Core/FrontEndElement.php:82
+msgid "Please enter your Full Name. It looks like you have entered only your first name or last name."
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:83
+#: includes/Core/FrontEndElement.php:84
+#: includes/Core/FrontEndElement.php:85
+#: includes/Core/FrontEndElement.php:97
+#: resources/php/template-core-functions.php:106
+msgid "This value is required."
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:92
+#: includes/Core/FrontEndElement.php:98
+msgid "This value seems to be invalid."
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:93
+msgid "This value should be a valid email."
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:94
+msgid "This value should be a valid number."
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:95
+msgid "This value should be a valid integer."
+msgstr ""
+
+#: includes/Core/FrontEndElement.php:96
+msgid "This value should not be blank."
+msgstr ""
+
+#: resources/php/error-codes.php:12
+msgid "Invalid request."
+msgstr ""
+
+#: resources/php/error-codes.php:13
+#: resources/php/error-codes.php:20
+msgid "Invalid response. Please try again."
+msgstr ""
+
+#: resources/php/error-codes.php:14
+msgid "Empty response received. Please try again."
+msgstr ""
+
+#: resources/php/error-codes.php:15
+msgid "Invalid response format. Please try again."
+msgstr ""
+
+#: resources/php/error-codes.php:16
+msgid "Invalid response json failed. Please try again."
+msgstr ""
+
+#: resources/php/error-codes.php:17
+msgid "HTTP Error."
+msgstr ""
+
+#: resources/php/error-codes.php:21
+msgid "Invalid request. Please try again."
+msgstr ""
+
+#: resources/php/error-codes.php:22
+msgid "Email or password is incorrect."
+msgstr ""
+
+#. translators: 1: opening a tag  2: closing a tag
+#: resources/php/error-codes.php:24
+msgid "Your subscribed plan has expired. Please  %1$s renew your license %2$s"
+msgstr ""
+
+#. translators: 1: opening a tag  2: closing a tag
+#: resources/php/error-codes.php:26
+msgid "You have reached the sites limit for your plan. Please  %1$s Upgrade your plan %2$s"
+msgstr ""
+
+#. translators: 1: opening a tag  2: closing a tag
+#: resources/php/error-codes.php:28
+msgid "Invalid license information. Please %1$s contact support %2$s"
+msgstr ""
+
+#. translators: 1: opening a tag  2: closing a tag
+#: resources/php/error-codes.php:30
+msgid "Temporary server issue. Please try again. If issue persists, %1$s contact support %2$s"
+msgstr ""
+
+#. translators: 1: opening a tag  2: closing a tag
+#: resources/php/error-codes.php:32
+msgid "Invalid token received. Please try again. If issue persists, %1$s contact support %2$s"
+msgstr ""
+
+#: resources/php/error-codes.php:34
+#: resources/php/error-codes.php:35
+msgid "Sorry, that email already exists! Please login to your account"
+msgstr ""
+
+#: resources/php/error-codes.php:36
+#: resources/php/error-codes.php:37
+msgid "A pro plan is active for this account."
+msgstr ""
+
+#: resources/php/error-codes.php:38
+msgid "Your trial is active on another site. Please upgrade to Pro to start using Pro features."
+msgstr ""
+
+#: resources/php/error-codes.php:39
+#: resources/php/error-codes.php:40
+msgid "Dev site limit during active trial has been reached."
+msgstr ""
+
+#: resources/php/error-codes.php:41
+msgid "Your 14-day trial is over."
+msgstr ""
+
+#: resources/php/functions.php:413
+msgid "Back"
+msgstr ""
+
+#: resources/php/functions.php:421
+msgid "Continue to Shipping Method"
+msgstr ""
+
+#: resources/php/functions.php:439
+msgid "Continue to Payment Details"
+msgstr ""
+
+#: resources/php/functions.php:458
+msgid "Continue to Review & Place Order"
+msgstr ""
+
+#: resources/php/functions.php:509
+msgid "Choose your Shipping Method"
+msgstr ""
+
+#: resources/php/functions.php:627
+msgid "Choose your preferred payment method"
+msgstr ""
+
+#: resources/php/functions.php:643
+msgid "Your order is free. No payment is required."
+msgstr ""
+
+#: resources/php/functions.php:688
+msgid "Secure Credit/Debit Card Payment"
+msgstr ""
+
+#. translators: %s: Payment gateway name
+#: resources/php/functions.php:689
+msgid "This 256-bit TLS encrypted payment is secured by %s."
+msgstr ""
+
+#: resources/php/functions.php:720
+msgid "You can proceed to the next step to complete your order."
+msgstr ""
+
+#: resources/php/functions.php:761
+msgid "Items Summary"
+msgstr ""
+
+#: resources/php/functions.php:830
+msgid "has been removed."
+msgstr ""
+
+#: resources/php/functions.php:832
+msgid "Add it back"
+msgstr ""
+
+#: resources/php/functions.php:954
+msgid "Estimated Shipping"
+msgstr ""
+
+#: resources/php/functions.php:956
+#: resources/php/template-core-functions.php:171
+msgid "Shipping"
+msgstr ""
+
+#: resources/php/functions.php:1024
+#: resources/php/functions.php:1044
+msgid "Estimated Order Total"
+msgstr ""
+
+#: resources/php/functions.php:1058
+#: resources/php/functions.php:1065
+msgid "Not Calculated"
+msgstr ""
+
+#: resources/php/functions.php:1063
+msgid "Not Available"
+msgstr ""
+
+#: resources/php/functions.php:1243
+msgid "Save Changes"
+msgstr ""
+
+#: resources/php/functions.php:1324
+msgid "Place order securely"
+msgstr ""
+
+#: resources/php/functions.php:1365
+msgid "The password you entered is incorrect"
+msgstr ""
+
+#: resources/php/functions.php:1365
+msgid "Please check your password or"
+msgstr ""
+
+#: resources/php/functions.php:1365
+msgid "reset your password"
+msgstr ""
+
+#: resources/php/functions.php:1538
+msgid "Add"
+msgstr ""
+
+#: resources/php/template-core-functions.php:13
+msgid "Secure Checkout"
+msgstr ""
+
+#: resources/php/template-core-functions.php:14
+msgid "256-bit, Bank-Grade TLS Encryption"
+msgstr ""
+
+#: resources/php/template-core-functions.php:26
+msgid "Already have an account with us?"
+msgstr ""
+
+#: resources/php/template-core-functions.php:30
+#: resources/php/template-core-functions.php:639
+#: templates/default/content.php:25
+msgid "Login to your account"
+msgstr ""
+
+#: resources/php/template-core-functions.php:31
+msgid "for a faster checkout."
+msgstr ""
+
+#: resources/php/template-core-functions.php:37
+msgid "Welcome back,"
+msgstr ""
+
+#: resources/php/template-core-functions.php:78
+msgid "Create an account using this email"
+msgstr ""
+
+#: resources/php/template-core-functions.php:103
+msgid "Create a Password"
+msgstr ""
+
+#: resources/php/template-core-functions.php:104
+#: resources/php/template-core-functions.php:649
+msgid "SHOW"
+msgstr ""
+
+#: resources/php/template-core-functions.php:105
+#: resources/php/template-core-functions.php:650
+msgid "HIDE"
+msgstr ""
+
+#: resources/php/template-core-functions.php:157
+#: resources/php/template-core-functions.php:196
+#: resources/php/template-core-functions.php:241
+msgid "EDIT"
+msgstr ""
+
+#: resources/php/template-core-functions.php:168
+msgid "Shipping Method"
+msgstr ""
+
+#: resources/php/template-core-functions.php:206
+msgid "Payment Details"
+msgstr ""
+
+#: resources/php/template-core-functions.php:209
+msgid "Payment"
+msgstr ""
+
+#: resources/php/template-core-functions.php:297
+msgid "Enter a discount code"
+msgstr ""
+
+#: resources/php/template-core-functions.php:298
+msgid "Apply"
+msgstr ""
+
+#: resources/php/template-core-functions.php:324
+msgid "Add a discount code"
+msgstr ""
+
+#: resources/php/template-core-functions.php:329
+msgid "Add another discount code"
+msgstr ""
+
+#: resources/php/template-core-functions.php:466
+msgid "You won't be charged yet"
+msgstr ""
+
+#: resources/php/template-core-functions.php:492
+msgid "Review & Place Order"
+msgstr ""
+
+#: resources/php/template-core-functions.php:506
+msgid " delivery, shipping and"
+msgstr ""
+
+#. translators: %s: $shipping_text variable
+#: resources/php/template-core-functions.php:509
+msgid "Please review your %s payment details above and your order summary"
+msgstr ""
+
+#. translators: %s: $shipping_text variable
+#: resources/php/template-core-functions.php:510
+msgid "below"
+msgstr ""
+
+#: resources/php/template-core-functions.php:511
+msgid "on the right"
+msgstr ""
+
+#: resources/php/template-core-functions.php:511
+msgid "When you are ready, click on the Place Order button."
+msgstr ""
+
+#: resources/php/template-core-functions.php:537
+msgid "Express checkout"
+msgstr ""
+
+#: resources/php/template-core-functions.php:610
+msgid "Login"
+msgstr ""
+
+#: resources/php/template-core-functions.php:613
+msgid "Welcome back, "
+msgstr ""
+
+#: resources/php/template-core-functions.php:648
+msgid "Lost password?"
+msgstr ""
+
+#: resources/php/template-core-functions.php:654
+msgid "Login to my account"
+msgstr ""
+
+#: resources/php/template-core-functions.php:679
+msgid "Back to Cart"
+msgstr ""
+
+#: templates/Admin/cartimize-beta-welcome-page.php:14
+msgid "Welcome to Linear Checkout for WooCommerce"
+msgstr ""
+
+#: templates/Admin/cartimize-service-signin-signup.php:25
+msgid "Create New Account"
+msgstr ""
+
+#: templates/Admin/cartimize-service-signin-signup.php:29
+msgid "Login To Your Account"
+msgstr ""
+
+#: templates/Admin/cartimize-service-signin-signup.php:32
+msgid "Create your Cartimize.com account"
+msgstr ""
+
+#: templates/Admin/cartimize-service-signin-signup.php:33
+msgid "Login to your Cartimize.com account"
+msgstr ""
+
+#: templates/Admin/cartimize-service-signin-signup.php:38
+msgid "EMAIL ADDRESS (required)"
+msgstr ""
+
+#: templates/Admin/cartimize-service-signin-signup.php:40
+#: templates/Admin/cartimize-service-signin-signup.php:45
+msgid "PASSWORD"
+msgstr ""
+
+#: templates/default/form-billing.php:12
+#: templates/default/form-billing.php:46
+msgid "Billing address"
+msgstr ""
+
+#: templates/default/form-billing.php:19
+msgid "Same as Delivery Address"
+msgstr ""
+
+#: templates/default/form-billing.php:27
+msgid "Enter a different address"
+msgstr ""
+
+#: templates/default/form-shipping.php:6
+#: templates/default/form-shipping.php:9
+msgid "Contact Info"
+msgstr ""
+
+#: templates/default/form-shipping.php:15
+msgid "Contact Info & Delivery address"
+msgstr ""
+
+#: templates/default/form-shipping.php:17
+msgid "Contact Info, Delivery & Billing addresses"
+msgstr ""
+
+#: templates/default/form-shipping.php:21
+msgid "Delivery address"
+msgstr ""
+
+#: templates/default/form-shipping.php:23
+msgid "Delivery & Billing address"
+msgstr ""
+
+#: templates/default/form-shipping.php:29
+msgid "Delivery"
+msgstr ""
+
+#: templates/default/form-shipping.php:31
+msgid "Delivery & Billing"
+msgstr ""
+
+#: templates/default/form-shipping.php:49
+msgid "ENTER YOUR DELIVERY ADDRESS"
+msgstr ""
+
+#: templates/default/form-shipping.php:62
+msgid "ENTER YOUR DELIVERY & BILLING ADDRESSES"
+msgstr ""
